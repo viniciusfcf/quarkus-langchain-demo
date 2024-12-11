@@ -35,7 +35,7 @@ components:
         name: kubedock
         protocol: tcp
         targetPort: 2475
-      - exposure: none
+      - exposure: public
         name: debug
         targetPort: 5005
       - exposure: public
