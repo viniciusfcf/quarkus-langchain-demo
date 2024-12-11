@@ -14,8 +14,8 @@ public class BookingService {
     @ConfigProperty(name="booking.daystoend")
     int daystoend;
 
-    private static String FIRSTNAME="john";
-    private static String LASTNAME="doe";
+    private static String FIRSTNAME="vinicius";
+    private static String LASTNAME="ferraz";
     private static String BOOKINGNUMBER ="123-456";
 
     public Booking getBookingDetails(String bookingNumber, String customerName, String customerSurname) {
