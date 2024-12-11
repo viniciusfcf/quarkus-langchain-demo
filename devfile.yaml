@@ -38,6 +38,6 @@ components:
       - exposure: public
         name: debug
         targetPort: 5005
-      - exposure: public
+      - exposure: 'web'
         name: quarkus
         targetPort: 8080
